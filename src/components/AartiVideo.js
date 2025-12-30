@@ -25,18 +25,19 @@ export default function AartiVideo() {
         </div>
 
         {/* Right Video (Mobile Reel Style) */}
-        <div className="flex justify-center">
-          <div className="w-[260px] sm:w-[300px] aspect-[9/16] rounded-2xl overflow-hidden shadow-2xl border">
-            <video
-              src="/AartiVideo.mp4"
-              controls
-              preload="metadata"
-              className="w-full h-full object-cover"
-            >
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
+      <div className="flex justify-center">
+  <div className="w-[260px] sm:w-[300px] aspect-[9/16] rounded-2xl overflow-hidden shadow-2xl border">
+    <iframe
+      src="https://www.youtube.com/embed/8Vucpme9kFI"
+      title="Baglamukhi Aarti"
+      className="w-full h-full"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
 
       </div>
     </section>

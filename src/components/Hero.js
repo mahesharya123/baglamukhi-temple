@@ -22,7 +22,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative h-[90vh] w-full overflow-hidden mt-10">
+    <section className="relative h-[60vh] w-full overflow-hidden mt-10 m-1">
       {/* Background Images */}
       {images.map((img, index) => (
         <div
