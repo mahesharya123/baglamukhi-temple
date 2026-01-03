@@ -2,6 +2,7 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import MobileSocialBar from "@/components/MobileSocialBar";
 
 export const metadata = {
   title: {
@@ -45,6 +46,9 @@ export const metadata = {
     locale: "hi_IN",
     type: "website",
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
 
   twitter: {
     card: "summary_large_image",
@@ -59,10 +63,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="hi">
       <body className="bg-yellow-50 text-gray-800">
+        
         <Navbar />
-        <main>{children}</main>
+        <main>
+           {/* Mobile social icons */}
+        <MobileSocialBar />
+          {children}
+          </main>
         <Footer />
-      </body>
+      </body> 
     </html>
   );
 }

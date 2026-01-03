@@ -11,7 +11,7 @@ const places = [
   {
     name: "Ma Baglamukhi Resort",
     type: "Hotel • 500m away",
-    img: "/Baglamukhi-resort.jpg",
+    img: "/bgresot.webp",
   },
   {
     name: "Jain Bhojnalay",

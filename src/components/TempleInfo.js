@@ -2,7 +2,7 @@
 
 export default function TempleInfo() {
   return (
-    <section className="p-8 md:p-16 bg-white">
+    <section className="p-8 md:p-16 bg-gradient-to-b from-yellow-50 via-white to-yellow-100">
       <h2 className="text-3xl font-bold text-center text-red-700 mb-12">
         Ma Baglamukhi Temple
       </h2>

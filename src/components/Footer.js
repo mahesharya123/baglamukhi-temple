@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         {/* Left: Text */}
         <p className="text-center md:text-left text-sm md:text-base">
-          &copy; {new Date().getFullYear()} Ma Baglamukhi Temple Nalkheda. All Rights Reserved.
+          &copy; {new Date().getFullYear()}  Aryatech ,All Rights Reserved.
         </p>
 
         {/* Right: Social Icons */}

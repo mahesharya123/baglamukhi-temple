@@ -1,6 +1,6 @@
 export default function AartiVideo() {
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-16 md:py-24 bg-white bg-gradient-to-b from-yellow-50 via-white to-yellow-100">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
         {/* Left Content */}
